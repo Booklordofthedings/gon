@@ -5,12 +5,7 @@ Another focus is on human writeability, so it should be easy to understand and m
 
 
 
-## Rules
-- A gon document contains lines (kinda like key/value pairs)
-- Lines are always divided by the unix linefeed "\n" (though not every linefeed indicates a new line "object")
-- The lines are divided into multiple different parts, which are divided by ":"
-- As a first part of a line there is always a type declaration
-- The second part is either a name/key or depending on the type contains some additional information about the type, such as size
-- The last one is the raw data
-
-### Type declarations
+## Example
+´´´
+//This is a comment and wont be parse
+´´´
