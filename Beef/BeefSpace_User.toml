@@ -1,0 +1,126 @@
+FileVersion = 1
+LastConfig = "Debug"
+LastPlatform = "Win64"
+RecentFilesList = ["src\\Gon.bf", "src\\GonAcess.bf", "testing\\src\\Program.bf", "Disassembly", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\UInt.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\System.bf"]
+
+[MainWindow]
+X = 681
+Y = 0
+Width = 984
+Height = 1032
+ShowKind = "Maximized"
+
+[MainDockingFrame]
+Type = "DockingFrame"
+SplitType = 2
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 3620.28
+RequestedHeight = 1022.0
+SizePriority = 1022.0
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 193.0
+RequestedHeight = 228.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Workspace"
+TabWidth = 109.8215
+Type = "ProjectPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+IsFillWidget = true
+RequestedWidth = 909.0
+RequestedHeight = 868.28
+SizePriority = 909.0
+DefaultDocumentsTabbedView = true
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Program.bf"
+TabWidth = 90.71439
+Type = "SourceViewPanel"
+FilePath = "testing\\src\\Program.bf"
+CursorPos = 300
+ProjectName = "testing"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Gon.bf"
+TabWidth = 66.60721
+Type = "SourceViewPanel"
+FilePath = "src\\Gon.bf"
+CursorPos = 15271
+VertPos = 9510.24
+ProjectName = "Gon"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+IsFillWidget = true
+RequestedWidth = 811.52
+RequestedHeight = 881.56
+SizePriority = 811.52
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "GonAcess.bf"
+TabWidth = 106.2502
+Type = "SourceViewPanel"
+FilePath = "src\\GonAcess.bf"
+VertPos = 5865.0
+ProjectName = "Gon"
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 1234.56
+RequestedHeight = 135.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Output"
+TabWidth = 90.17864
+Type = "OutputPanel"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Find Results"
+TabWidth = 115.1787
+Type = "FindResultsPanel"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Immediate"
+TabWidth = 108.0358
+Type = "ImmediatePanel"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Watch"
+TabWidth = 84.8215
+Type = "WatchPanel"
+Columns = [{Width = 196.0}, {Width = 196.0}, {Width = 196.0}]
+Items = [""]
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Threads"
+TabWidth = 92.85722
+Type = "ThreadPanel"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Memory"
+TabWidth = 96.42866
+Type = "MemoryPanel"
+AutoResize = "Auto_Mul8"
+RequestedWidth = 361.0
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Call Stack"
+TabWidth = 101.7858
+Type = "CallStackPanel"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Auto"
+TabWidth = 76.78577
+Type = "AutoWatchPanel"
+Columns = [{Width = 196.0}, {Width = 1236.0}, {Width = 196.0}]

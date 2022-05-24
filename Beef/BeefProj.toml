@@ -1,0 +1,6 @@
+FileVersion = 1
+
+[Project]
+Name = "Gon"
+TargetType = "BeefLib"
+StartupObject = "Gon.Program"
